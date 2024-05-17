@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #ff66b2, #66ff66);
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.my-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+
+
+.social-links .btn {
+  margin: 0 0.5rem;
+}
+
+.profile-container {
+  position: relative;
+  height: 700px; /* Match the image height */
+  overflow: hidden;
+}
+
+.profile {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+}
